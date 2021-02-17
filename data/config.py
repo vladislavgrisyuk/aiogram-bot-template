@@ -4,6 +4,6 @@ from environs import Env
 env = Env()
 env.read_env()
 
-BOT_TOKEN = env.str("BOT_TOKEN")  # Забираем значение типа str
-ADMINS = env.list("ADMINS")  # Тут у нас будет список из админов
-IP = env.str("ip")  # Тоже str, но для айпи адреса хоста
+BOT_TOKEN = '1640795372:AAGbw9ga8vbKQBQj2O3o_fmZiEKFbIRW9NI' # Забираем значение типа str
+ADMINS = '12312123123'  # Тут у нас будет список из админов
+IP = '123213123123'  # Тоже str, но для айпи адреса хоста
